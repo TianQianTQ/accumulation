@@ -1,5 +1,5 @@
 module.exports = {
-  // base:'/accumulation/',
+  base:'/accumulation/',
   title:'Hello 伊人笑桃花酒',
   description:'用文字记录路过的风景',
   themeConfig: {

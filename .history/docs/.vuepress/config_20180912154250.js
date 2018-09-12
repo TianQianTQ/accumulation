@@ -1,5 +1,5 @@
 module.exports = {
-  // base:'/accumulation/',
+  base:'/accumulation/',
   title:'Hello 伊人笑桃花酒',
   description:'用文字记录路过的风景',
   themeConfig: {
@@ -32,7 +32,14 @@ module.exports = {
       { text: 'GitHub', link:'https://github.com/TianQianTQ'},
       { text: '博客', link:'https://blog.csdn.net/t_tq_bnsg_bs_ll'}  
     ],
-    sidebar: 'auto',    // 自动匹配当前侧边栏---需后续重新配置
+    // sidebar: 'auto',    // 自动匹配当前侧边栏---需后续重新配置
+    sidebar: [
+      ['/', '介绍'],
+      ['/example/', '示例'],
+      ['/getstart/', '起步'],
+      ['/api/', '属性'],
+      ['/function/', '方法']
+    ],
     sidebarDepth: 2,   // 设置嵌套的标题链接深度\
     displayAllHeaders: true, // 默认值：false  设置所有页面的标题链接
     lastUpdated: 'Last Updated',   // 最后更新时间  --基于git
