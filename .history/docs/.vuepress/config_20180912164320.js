@@ -33,9 +33,11 @@ module.exports = {
     ],
     // sidebar: 'auto',    // 自动匹配当前侧边栏---需后续重新配置
     sidebar: [
-      ['/home/', '介绍'],
+      ['/', '介绍'],
       ['/audition/', '前端面试'],
       ['/native/', 'js原生方法'],
+      ['/api/', '属性'],
+      ['/function/', '方法']
     ],
     // sidebarDepth: 2,   // 设置嵌套的标题链接深度\
     displayAllHeaders: true, // 默认值：false  设置所有页面的标题链接

@@ -33,7 +33,7 @@ module.exports = {
     ],
     // sidebar: 'auto',    // 自动匹配当前侧边栏---需后续重新配置
     sidebar: [
-      ['/home/', '介绍'],
+      ['/', '介绍'],
       ['/audition/', '前端面试'],
       ['/native/', 'js原生方法'],
     ],
